@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio DOM</title>
+    <style>
+        body{
+            background-color: rgb(37, 99, 130);
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        <h1>Iniciando estudos com DOM</h1>
+        <p>Aqui vai o resultado</p>
+        <p >Aprendendo a usar o <strong>DOM</strong> em Javascript.</p>
+        <div id="mydiv">Clique em mim!!</div>
+        <br>
+        <script>
+            var div = document.getElementById ('mydiv')
+            div.style.color = 'black'
+            div.style.background = 'white'
+            div.innerText = 'Estou aguardando...'
+        </script> 
+    -->
+
+    <!-- 
+        <h1>Iniciando estudos com DOM</h1>
+        <p>Aqui vai o resultado</p>
+        <p >Aprendendo a usar o <strong>DOM</strong> em Javascript.</p>
+        <div name="mydiv">Clique em mim!!</div>
+        <br>
+        <script>
+            var div = document.getElementsByName('mydiv')[0]
+            div.style.color = 'black'
+            div.style.background = 'white'
+            div.innerText = 'Estou aguardando...'
+        </script> 
+    -->
+
+    <!-- 
+        <h1>Iniciando estudos com DOM</h1>
+        <p>Aqui vai o resultado</p>
+        <p >Aprendendo a usar o <strong>DOM</strong> em Javascript.</p>
+        <div class="mydiv">Clique em mim!!</div>
+        <br>
+        <script>
+    
+            var div = document.getElementsByClassName('mydiv')[0]
+            div.style.color = 'black'
+            div.style.background = 'white'
+            div.innerText = 'Estou aguardando...'
+    
+        </script> 
+    -->
+
+    <h1>Iniciando estudos com DOM</h1>
+        <p>Aqui vai o resultado</p>
+        <p >Aprendendo a usar o <strong>DOM</strong> em Javascript.</p>
+        <div id="mydiv">Clique em mim!!</div>
+        <br>
+        <script>
+    
+            var div = document.querySelector('div#mydiv')
+            div.style.color = 'black'
+            div.style.background = 'white'
+            div.innerText = 'Estou aguardando...'
+    
+        </script> 
+    
+</body>
+</html>
