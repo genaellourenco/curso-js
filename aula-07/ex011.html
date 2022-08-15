@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Identificação de Nacionalidade</h1>
+
+    <p>Qual o seu país de origem ? 
+        <input type="text" name="txtn" id="txtn"> 
+        <input type="button" value="verificar" onclick="verificar()">
+    </p>
+
+    <div id="res"></div>
+
+    <script>
+        function verificar(){
+            
+            var tn = window.document.getElementById('txtn')
+            var res = window.document.querySelector('div#res')
+            var nac = String(tn.value)
+            res.innerHTML = `<p>Ok! seu país de origem é: <strong>${nac}</strong> !</p>`
+            if(nac == 'Brasil'){
+                res.innerHTML += `Cidadão - <strong>Brasileiro</strong>`
+            } else { 
+                res.innerHTML += `Estrageiro`
+            }
+
+                
+            
+            
+        }
+
+    </script>
+
+</body>
+</html>
