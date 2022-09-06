@@ -1,0 +1,48 @@
+
+
+        body{
+            background-color: rgb(159, 91, 215);
+            text-align: center;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           margin-top: 100px;
+        }
+        section{
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+            height: auto;
+            width: 400px;
+            text-align: start;
+            border-radius: 20px;
+            box-shadow: 03px 03px 03px rgba(0, 0, 0, 0.3);;
+
+        }
+
+        h1{
+            color: aliceblue;
+            text-shadow: 02px 02px 03px black;
+        }
+
+       .p-fim{
+        padding-left: 19px;
+       }
+
+       .p-pular{
+        padding-left: 4px;
+       }
+
+       .btn{
+        padding: 5px;
+        margin-top: 10px;
+       }
+
+       #res{
+        margin-top: 20px;
+        text-align: center;
+       }
+ 
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    
